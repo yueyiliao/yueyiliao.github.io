@@ -92,13 +92,32 @@ content:
         #     icon: fab fa-github
         #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-          Short overview of the project (optional)
+          Short overview of the project 
         description: | # this will include new lines to allow paragraphs
           An annual cultural dining experience celebrating tradition, creativity, and community.  
           I hosted and prepared multi-course Lunar New Year feasts for 10–20 guests each year.  
           From ingredient sourcing and menu design to timing and presentation, I managed every step of the process to ensure a smooth, satisfying dining experience.  
           These events taught me how to tell cultural stories through food, atmosphere, and hospitality.  
+     
+     - layout: left
+        border: weak
+        title: Community Baking Event — “Friends” Autism Support Program
+        quote: >
+          Baking workshops that connect children with autism and their caregivers—plus guest talks for public awareness.
+        description: |
+          Co-organized hands-on pastry sessions where children and caregivers decorated cakes together, creating shared moments of connection and pride.
+          Coordinated logistics, prep, and safety; invited guest speakers to raise inclusion awareness.
+          Learned to use hospitality as a bridge for empathy and community engagement.
 
+      - layout: left
+        border: weak
+        title: Recipe Development & Sharing — “Xia Chu Fang” Platform
+        quote: >
+          Original recipes that blend home-style technique with creative flavor pairing and presentation.
+        description: |
+          Developed, tested, and published original recipes on Xia Chu Fang, meaning "to cook", engaging with an online cooking community.
+          Focused on clear instructions, plating, and food photography to improve accessibility and appeal.
+          Iterated based on feedback to refine flavor balance and timing.
 
           
   - title: Experience
