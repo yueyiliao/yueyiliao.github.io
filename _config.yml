@@ -102,23 +102,61 @@ content:
         quote: >
           Original recipes blending home-style techniques with creative flavor pairing and presentation.
         description: |
-          Developed, tested, and published original recipes on 下厨房 (Xia Chu Fang), an online cooking platform.
+          Developed, tested, and published original recipes on Xia Chu Fang, meaning "to cook", an online cooking platform.
           Focused on clear instructions, plating, and food photography to improve accessibility and appeal.
           Iterated based on community feedback to refine flavor balance and timing.
 
           
-  - title: Experience
+   - title: Experience
     layout: list
     content:
       - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
+        title: Behavior Frontiers
+        sub_title: Behavior Technician
+        caption: October 2025 – Present
+        link: https://www.behaviorfrontiers.com
         quote: >
-          Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of role
+          Providing individualized behavioral support for clients with developmental needs.
+        description: |
+          Apply empathy and observational skills to support clients with developmental and behavioral challenges.
+          Collaborate with supervisors and families to implement individualized behavioral support plans.
+          Strengthen communication, patience, and situational awareness — skills directly transferable to hospitality and guest experience management.
+
+      - layout: right
+        title: Zhengzhou No.1 People’s Hospital
+        sub_title: Medical Intern
+        caption: July – August 2021
+        quote: >
+          Assisted physicians and staff in a fast-paced hospital environment.
+        description: |
+          Supported patient communication and administrative coordination while observing medical procedures.
+          Maintained accurate records and assisted with daily clinical operations.
+          Developed adaptability, professionalism, and attention to detail — key strengths for service and hospitality settings.
+
+      - layout: right
+        title: Harvest Pack Meal Packing Event
+        sub_title: Community Volunteer
+        caption: Planned for November 2025
+        link: https://www.harvestpack.org
+        quote: >
+          Collaborative community event to assemble meals for families in need.
+        description: |
+          Will collaborate with over 200 volunteers to assemble 100,000 meal packs for families in Central America.
+          Expect to strengthen teamwork, time management, and community engagement in a mission-driven environment.
+          Aim to deepen understanding of service and teamwork through large-scale event participation.
+
+      - layout: right
+        title: Private Family Employment
+        sub_title: Babysitter
+        caption: 2023 – Present
+        quote: >
+          Providing daily care and support for two children.
+        description: |
+          Prepare balanced meals and assist with homework while ensuring a safe and supportive environment.
+          Communicate regularly with parents to maintain trust and consistency.
+          Build patience, responsibility, and interpersonal skills that enhance guest service and team collaboration.
+
+          
   - title: Education
     layout: list
     content:
