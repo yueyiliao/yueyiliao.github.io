@@ -73,7 +73,7 @@ about_content: |-
   I aspire to create meaningful hospitality experiences that **celebrate culture**, **value sustainability**, **respect community**, and **foster human connection**.
 
 content:
-  - title: Culinary & Community Projects
+  - title: Projects
     layout: list
     content:
       - layout: left
@@ -102,7 +102,7 @@ content:
         quote: >
           Original recipes blending home-style techniques with creative flavor pairing and presentation.
         description: |
-          Developed, tested, and published original recipes on Xia Chu Fang, meaning "to cook", an online cooking platform.
+          Developed, tested, and published original recipes on 下厨房 (Xia Chu Fang), an online cooking platform.
           Focused on clear instructions, plating, and food photography to improve accessibility and appeal.
           Iterated based on community feedback to refine flavor balance and timing.
 
@@ -118,7 +118,7 @@ content:
         description: |
           Developed a research proposal expanding Rusbult’s Investment Model to examine how past experiences and future planning predict commitment in long-distance and proximal relationships.
           Designed survey methodology for 500 participants and proposed ANOVA analysis to compare commitment mechanisms.
-          Applied behavioral science concepts to understand long-term engagement and emotional investment — insights applicable to customer and guest relationship management.
+          Applied behavioral science concepts to understand long-term engagement and emotional investment.
 
       - layout: left
         border: weak
@@ -129,18 +129,93 @@ content:
         description: |
           Created a study exploring how increasing parental awareness of gender bias affects children’s self-concept and behavior.
           Integrated Implicit Association Tests (IAT) and survey methods to evaluate shifts in parental bias and child development.
-          Learned to design human-centered interventions that promote inclusion and empathy — values central to effective hospitality leadership.
 
       - layout: left
         border: weak
         title: Research Presentation — PTSD Symptoms and Sleep Disturbances
         caption: June 2024
         quote: >
-          Presentation and analysis of Dietch et al. (2019) on PTSD symptoms and sleep in World Trade Center responders.
+          Presentation of Dietch et al. (2019) on PTSD symptoms and sleep in World Trade Center responders.
         description: |
-          Collaborated with a team to analyze and present findings from Dietch et al. (2019) on the bidirectional relationship between PTSD symptoms and sleep among World Trade Center responders.
-          Summarized study methodology and conclusions to communicate implications for occupational health and trauma recovery.
-          Enhanced skills in research interpretation, teamwork, and presenting complex psychological findings clearly to diverse audiences.
+          Collaborated with a team to synthesize and present the paper’s methodology and findings for a class audience.
+          Focused on clear communication of study design, variables, and real-world implications for occupational health.
+
+  - title: Experience
+    layout: list
+    content:
+      - layout: right
+        title: Behavior Frontiers
+        sub_title: Behavior Technician
+        caption: October 2025 – Present
+        link: https://www.behaviorfrontiers.com
+        quote: >
+          Providing individualized behavioral support for clients with developmental needs.
+        description: |
+          Apply empathy and observational skills to support clients with developmental and behavioral challenges.
+          Collaborate with supervisors and families to implement individualized support plans.
+          Strengthen communication, patience, and situational awareness — directly transferable to hospitality and guest experience management.
+
+      - layout: right
+        title: Zhengzhou No.1 People’s Hospital
+        sub_title: Medical Intern
+        caption: July – August 2021
+        quote: >
+          Assisted physicians and staff in a fast-paced hospital environment.
+        description: |
+          Supported patient communication and administrative coordination while observing clinical procedures.
+          Maintained accurate records and assisted with daily operations.
+          Developed adaptability, professionalism, and attention to detail.
+
+      - layout: right
+        title: Harvest Pack Meal Packing Event
+        sub_title: Community Volunteer
+        caption: Planned for November 2025
+        link: https://www.harvestpack.org
+        quote: >
+          Collaborative community event to assemble meals for families in need.
+        description: |
+          Will collaborate with 200+ volunteers to assemble 100,000 meal packs for families in Central America.
+          Expect to strengthen teamwork, time management, and community engagement in a mission-driven environment.
+
+      - layout: right
+        title: Private Family Employment
+        sub_title: Babysitter
+        caption: 2023 – Present
+        quote: >
+          Providing daily care and support for two children.
+        description: |
+          Prepare balanced meals and assist with homework while ensuring a safe and supportive environment.
+          Communicate regularly with parents to maintain trust and consistency.
+
+  - title: Education
+    layout: list
+    content:
+      - layout: top-right
+        title: University of California, Riverside
+        sub_title: Bachelor of Arts in Psychology
+        caption: September 2022 – June 2026 (expected)
+        quote: >
+          Coursework emphasizing human behavior, communication, and social psychology — connecting insight with service and hospitality.
+        description: |
+          Relevant coursework includes Social Psychology, Cognitive Psychology, Industrial–Organizational Psychology, and Research Methods.
+
+      - layout: top-right
+        title: Culinary Institute of America
+        sub_title: Accelerated Culinary Arts Certificate Program (Application in Progress)
+        caption: Planned 2026 Enrollment
+        quote: >
+          Advanced professional training in culinary arts and kitchen management.
+        description: |
+          Preparing an application to gain hands-on culinary experience and technical mastery in fine dining, event operations, and hospitality service excellence.
+
+      - layout: top-right
+        title: New York University
+        sub_title: Global Hospitality Management Program (Application in Progress)
+        caption: Planned 2026 Enrollment
+        quote: >
+          Specialized program integrating global service leadership and hospitality innovation.
+        description: |
+          Applying to deepen understanding of international service design, luxury guest experience, and sustainable business practices.
 
           
    - title: Experience
