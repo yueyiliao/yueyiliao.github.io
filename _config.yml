@@ -52,21 +52,30 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: Directory of profile image (eg. images/Avatar.jpg)
 about_content: | 
-  I am an aspiring culinary and hospitality professional currently studying Psychology at the University of California, Riverside.  
-  My goal is to combine my understanding of human behavior with my passion for food and hospitality to create meaningful, guest-centered dining experiences.  
+ about_profile_image: images/profile.jpg
+about_content: |
+  I’m an aspiring **culinary & hospitality** professional and a **Psychology B.A. student at UC Riverside**.
 
-  Over the past few years, I’ve hosted cultural and themed dinners, organized community events, and gained hands-on food service experience through cooking, event planning, and leadership roles.  
-  I take pride in my attention to detail, reliability, and warmth in every interaction — whether welcoming guests or preparing a meal.
+  I combine an understanding of **human behavior** with a passion for **food and service** to create warm, guest-centered experiences.
 
-  I am currently pursuing professional culinary training through the **Culinary Institute of America’s Accelerated Culinary Arts Certificate Program**, alongside certifications in **ServSafe**, **Food Handling**, and **Responsible Beverage Service**.  
+  **What I’ve been doing**
+  - Hosting annual **Lunar New Year** feasts (10–20 guests): menu design, sourcing, timing, service.
+  - Creating themed dinners (creative **zongzi**, fusion **Spanish dishes**, Mid-Autumn pastries).
+  - Organizing inclusive community events and collaborating in team settings.
 
-  <mark>My career vision</mark> is to grow in the hospitality industry, continuously learning the art of service, teamwork, and culinary excellence.
+  **How I work**
+  - Detail-oriented, reliable, and calm under pressure.
+  - Strong communication; welcoming presence with guests and teammates.
+  - Clean, organized kitchen habits with consistent **food safety**.
 
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/Avatar.jpg "me")
+  **Training & Certifications**
+  - Applicant to the **Culinary Institute of America – Accelerated Culinary Arts Certificate Program**.
+  - **ServSafe Food Protection Manager**, **California Food Handler Card**, **Responsible Beverage Service (RBS)**.
+  - First Aid/CPR/AED; SHRM Essentials of HR (team dynamics & communication).
+
+  **Career Vision**
+  Grow in hospitality while mastering the craft of service, teamwork, and culinary excellence.
+
 
 content:
   - title: Projects # Title for the section
