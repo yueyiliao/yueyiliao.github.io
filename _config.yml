@@ -10,7 +10,7 @@ name: Yueyi Liao
 title: Where Psychology Meets Hospitality
 email: liaoyueyi@gmail.com
 # email_title: Email (Email title override)
-phone: +1 (424) 393-6876
+phone: "+1 (424) 393-6876"
 # phone_title: Phone (Phone title override)
 website: yueyiliao.github.io
 # website_title: Web (Website title override)
@@ -106,7 +106,7 @@ content:
           Focused on clear instructions, plating, and food photography to improve accessibility and appeal.
           Iterated based on community feedback to refine flavor balance and timing.
 
-  - title: Knowledge & Research
+  - title: "Knowledge & Research"
     layout: list
     content:
       - layout: left
@@ -216,90 +216,6 @@ content:
           Specialized program integrating global service leadership and hospitality innovation.
         description: |
           Applying to deepen understanding of international service design, luxury guest experience, and sustainable business practices.
-
-          
-   - title: Experience
-    layout: list
-    content:
-      - layout: right
-        title: Behavior Frontiers
-        sub_title: Behavior Technician
-        caption: October 2025 – Present
-        link: https://www.behaviorfrontiers.com
-        quote: >
-          Providing individualized behavioral support for clients with developmental needs.
-        description: |
-          Apply empathy and observational skills to support clients with developmental and behavioral challenges.
-          Collaborate with supervisors and families to implement individualized behavioral support plans.
-          Strengthen communication, patience, and situational awareness — skills directly transferable to hospitality and guest experience management.
-
-      - layout: right
-        title: Zhengzhou No.1 People’s Hospital
-        sub_title: Medical Intern
-        caption: July – August 2021
-        quote: >
-          Assisted physicians and staff in a fast-paced hospital environment.
-        description: |
-          Supported patient communication and administrative coordination while observing medical procedures.
-          Maintained accurate records and assisted with daily clinical operations.
-          Developed adaptability, professionalism, and attention to detail — key strengths for service and hospitality settings.
-
-      - layout: right
-        title: Harvest Pack Meal Packing Event
-        sub_title: Community Volunteer
-        caption: Planned for November 2025
-        link: https://www.harvestpack.org
-        quote: >
-          Collaborative community event to assemble meals for families in need.
-        description: |
-          Will collaborate with over 200 volunteers to assemble 100,000 meal packs for families in Central America.
-          Expect to strengthen teamwork, time management, and community engagement in a mission-driven environment.
-          Aim to deepen understanding of service and teamwork through large-scale event participation.
-
-      - layout: right
-        title: Private Family Employment
-        sub_title: Babysitter
-        caption: 2023 – Present
-        quote: >
-          Providing daily care and support for two children.
-        description: |
-          Prepare balanced meals and assist with homework while ensuring a safe and supportive environment.
-          Communicate regularly with parents to maintain trust and consistency.
-          Build patience, responsibility, and interpersonal skills that enhance guest service and team collaboration.
-
-  - title: Education
-    layout: list
-    content:
-      - layout: top-right
-        title: University of California, Riverside
-        sub_title: Bachelor of Arts in Psychology
-        caption: September 2022 – June 2026 (expected)
-        quote: >
-          Coursework emphasizing human behavior, communication, and social psychology — connecting insight with service and hospitality.
-        description: |
-          Pursuing a B.A. in Psychology with a focus on human interaction, behavioral science, and organizational communication.
-          Relevant coursework includes Social Psychology, Research Methods, Cognitive Psychology, and Industrial–Organizational Psychology.
-          Applied psychological principles to understand teamwork, leadership, and guest satisfaction in hospitality contexts.
-
-      - layout: top-right
-        title: Culinary Institute of America
-        sub_title: Accelerated Culinary Arts Certificate Program (Application in Progress)
-        caption: Planned 2026 Enrollment
-        quote: >
-          Advanced professional training in culinary arts and kitchen management.
-        description: |
-          Preparing an application for the CIA’s Accelerated Culinary Arts Certificate Program to gain hands-on culinary experience and technical mastery.
-          The program will strengthen practical culinary techniques and reinforce professional standards in fine dining, event operations, and hospitality service excellence.
-
-      - layout: top-right
-        title: New York University
-        sub_title: Global Hospitality Management Program (Application in Progress)
-        caption: Planned 2026 Enrollment
-        quote: >
-          Specialized program integrating global service leadership and hospitality innovation.
-        description: |
-          Applying to NYU’s Global Hospitality Management Program to deepen understanding of international service design, luxury guest experience, and sustainable business practices.
-          The program aligns with my goal of connecting psychology, cultural awareness, and hospitality to create meaningful and memorable guest experiences.
 
           
   - title: A Little More About Me
