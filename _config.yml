@@ -51,7 +51,7 @@ additional_links:
 # About Section
 # about_title: About Me (Use this to override about section title)
 about_profile_image: Directory of profile image (eg. images/Avatar.jpg)
-about_content: | # this will include new lines to allow paragraphs
+about_content: | 
   I am an aspiring culinary and hospitality professional currently studying Psychology at the University of California, Riverside.  
   My goal is to combine my understanding of human behavior with my passion for food and hospitality to create meaningful, guest-centered dining experiences.  
 
