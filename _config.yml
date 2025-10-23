@@ -52,7 +52,7 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: Directory of profile image (eg. images/Avatar.jpg)
 about_content: | 
- about_profile_image: images/profile.jpg
+ about_profile_image: images/Avatar.jpg
 about_content: |
   I’m an aspiring **culinary & hospitality** professional and a **Psychology B.A. student at UC Riverside**.
 
