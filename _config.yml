@@ -192,18 +192,41 @@ content:
           Communicate regularly with parents to maintain trust and consistency.
           Build patience, responsibility, and interpersonal skills that enhance guest service and team collaboration.
 
-          
   - title: Education
     layout: list
     content:
       - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
+        title: University of California, Riverside
+        sub_title: Bachelor of Arts in Psychology
+        caption: September 2022 – June 2026 (expected)
         quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of qualification
+          Coursework emphasizing human behavior, communication, and social psychology — connecting insight with service and hospitality.
+        description: |
+          Pursuing a B.A. in Psychology with a focus on human interaction, behavioral science, and organizational communication.
+          Relevant coursework includes Social Psychology, Research Methods, Cognitive Psychology, and Industrial–Organizational Psychology.
+          Applied psychological principles to understand teamwork, leadership, and guest satisfaction in hospitality contexts.
+
+      - layout: top-right
+        title: Culinary Institute of America
+        sub_title: Accelerated Culinary Arts Certificate Program (Application in Progress)
+        caption: Planned 2026 Enrollment
+        quote: >
+          Advanced professional training in culinary arts and kitchen management.
+        description: |
+          Preparing an application for the CIA’s Accelerated Culinary Arts Certificate Program to gain hands-on culinary experience and technical mastery.
+          The program will strengthen practical culinary techniques and reinforce professional standards in fine dining, event operations, and hospitality service excellence.
+
+      - layout: top-right
+        title: New York University
+        sub_title: Global Hospitality Management Program (Application in Progress)
+        caption: Planned 2026 Enrollment
+        quote: >
+          Specialized program integrating global service leadership and hospitality innovation.
+        description: |
+          Applying to NYU’s Global Hospitality Management Program to deepen understanding of international service design, luxury guest experience, and sustainable business practices.
+          The program aligns with my goal of connecting psychology, cultural awareness, and hospitality to create meaningful and memorable guest experiences.
+
+          
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
