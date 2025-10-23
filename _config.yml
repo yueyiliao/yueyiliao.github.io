@@ -73,7 +73,7 @@ about_content: |-
   I aspire to create meaningful hospitality experiences that **celebrate culture**, **value sustainability**, **respect community**, and **foster human connection**.
 
 content:
-  - title: Projects
+  - title: Culinary & Community Projects
     layout: list
     content:
       - layout: left
@@ -105,6 +105,42 @@ content:
           Developed, tested, and published original recipes on Xia Chu Fang, meaning "to cook", an online cooking platform.
           Focused on clear instructions, plating, and food photography to improve accessibility and appeal.
           Iterated based on community feedback to refine flavor balance and timing.
+
+  - title: Knowledge & Research
+    layout: list
+    content:
+      - layout: left
+        border: weak
+        title: Research Proposal — Investment Model and Commitment in Long-Distance vs. Proximal Relationships
+        caption: May 2025
+        quote: >
+          Exploring how relationship experiences and future planning shape emotional commitment across distances.
+        description: |
+          Developed a research proposal expanding Rusbult’s Investment Model to examine how past experiences and future planning predict commitment in long-distance and proximal relationships.
+          Designed survey methodology for 500 participants and proposed ANOVA analysis to compare commitment mechanisms.
+          Applied behavioral science concepts to understand long-term engagement and emotional investment — insights applicable to customer and guest relationship management.
+
+      - layout: left
+        border: weak
+        title: Research Proposal — Gender-Bias Awareness Intervention in Childhood Development
+        caption: January 2025
+        quote: >
+          Designing a longitudinal study to examine how parental awareness programs influence children’s confidence and identity.
+        description: |
+          Created a study exploring how increasing parental awareness of gender bias affects children’s self-concept and behavior.
+          Integrated Implicit Association Tests (IAT) and survey methods to evaluate shifts in parental bias and child development.
+          Learned to design human-centered interventions that promote inclusion and empathy — values central to effective hospitality leadership.
+
+      - layout: left
+        border: weak
+        title: Research Presentation — PTSD Symptoms and Sleep Disturbances
+        caption: June 2024
+        quote: >
+          Presentation and analysis of Dietch et al. (2019) on PTSD symptoms and sleep in World Trade Center responders.
+        description: |
+          Collaborated with a team to analyze and present findings from Dietch et al. (2019) on the bidirectional relationship between PTSD symptoms and sleep among World Trade Center responders.
+          Summarized study methodology and conclusions to communicate implications for occupational health and trauma recovery.
+          Enhanced skills in research interpretation, teamwork, and presenting complex psychological findings clearly to diverse audiences.
 
           
    - title: Experience
