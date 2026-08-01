@@ -383,7 +383,7 @@ function ProjectsPage({ onNavigate }) {
 
 function ContactPage() {
   const resumeUrl =
-    'https://docs.google.com/document/d/17j3yT76uYL-dSwMySgL1AurHxTWXOMQ8yNh3OxO6hZM/edit?usp=sharing'
+    'https://drive.google.com/file/d/19Y6jbMlSlj2eU_TzcglK839rKJ-tFrm2/view?usp=sharing'
 
   const contactActions = [
     {
