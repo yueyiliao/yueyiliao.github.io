@@ -912,3 +912,119 @@ h3 {
     transition: none;
   }
 }
+
+/* Small additions to the original Home layout. */
+.nav-link {
+  text-decoration: none;
+}
+
+.portfolio-page > [id] {
+  scroll-margin-top: 92px;
+}
+
+.home-introduction {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 180px;
+  align-items: center;
+  gap: 32px;
+}
+
+.home-introduction .hero-copy {
+  min-width: 0;
+}
+
+.home-introduction .avatar-wrap {
+  width: 180px;
+}
+
+.home-biography {
+  max-width: 760px;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.home-biography p {
+  margin-bottom: 0;
+}
+
+.home-skills {
+  padding-top: 32px;
+}
+
+.home-skills-grid {
+  display: grid;
+  gap: 24px;
+}
+
+.home-skills .skill-group {
+  gap: 12px;
+}
+
+.home-skills .pill-list {
+  gap: 12px;
+}
+
+.home-skills .pill-list li {
+  min-height: 0;
+  padding: 8px 12px;
+}
+
+.portfolio-contact {
+  border-top: 1px solid #d9d0b8;
+  padding-block: 12px;
+  background: #f2eedf;
+}
+
+.contact-footer-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 4px 24px;
+}
+
+.contact-footer-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 44px;
+  color: var(--heading);
+  font-size: 0.95rem;
+  line-height: 1.5;
+  text-decoration: underline;
+  text-decoration-color: var(--border-strong);
+  text-underline-offset: 4px;
+}
+
+.contact-footer-links a:hover {
+  color: var(--accent);
+  text-decoration-color: currentColor;
+}
+
+.contact-footer-links a > span {
+  color: var(--accent);
+}
+
+
+@media (max-width: 700px) {
+  .home-introduction {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .home-introduction .avatar-wrap {
+    width: 160px;
+  }
+
+  .contact-footer-links {
+    justify-content: flex-start;
+  }
+
+  .contact-footer-links a:first-child {
+    flex-basis: 100%;
+  }
+
+  .portfolio-page > [id] {
+    scroll-margin-top: 84px;
+  }
+}

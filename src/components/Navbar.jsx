@@ -27,15 +27,19 @@ export default function Navbar({ links, menuOpen, onNavigate, onToggleMenu }) {
             const isActive = link.isActive
 
             return (
-              <button
+              <a
                 key={link.path}
                 className={`nav-link ${isActive ? 'is-active' : ''}`}
-                type="button"
-                aria-current={isActive ? 'page' : undefined}
-                onClick={() => onNavigate(link.path)}
+                href={link.path}
+                aria-current={isActive ? 'location' : undefined}
+                onClick={(event) => {
+                  if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return
+                  event.preventDefault()
+                  onNavigate(link.path)
+                }}
               >
                 {link.label}
-              </button>
+              </a>
             )
           })}
         </div>
