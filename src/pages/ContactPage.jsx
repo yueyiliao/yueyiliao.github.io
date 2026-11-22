@@ -8,7 +8,7 @@ export default function ContactPage() {
         <a href="https://www.linkedin.com/in/yueyi-liao" target="_blank" rel="noreferrer">
           LinkedIn <span aria-hidden="true">↗</span>
         </a>
-        <a href="/Yueyi_Liao_Resume.pdf" target="_blank" rel="noreferrer">
+        <a href="/Yueyi_Liao_Resume_Latest.pdf" target="_blank" rel="noreferrer">
           View / Download Resume <span aria-hidden="true">↗</span>
         </a>
       </nav>

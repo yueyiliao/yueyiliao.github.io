@@ -4,7 +4,7 @@ export default function ContactActionCard({ action }) {
       href={action.href}
       target={action.isExternal ? '_blank' : undefined}
       rel={action.isExternal ? 'noreferrer' : undefined}
-      className="group flex min-h-44 flex-col justify-between rounded-3xl border border-white/70 bg-white/65 p-6 shadow-[0_18px_48px_rgba(63,82,104,0.12)] transition-[transform,box-shadow,background-color] duration-150 hover:-translate-y-1 hover:bg-white/80 hover:shadow-[0_24px_60px_rgba(63,82,104,0.16)] active:translate-y-px active:shadow-[0_10px_28px_rgba(63,82,104,0.12)]"
+      className="group flex flex-col gap-5 rounded-3xl border border-white/70 bg-white/65 p-6 shadow-[0_18px_48px_rgba(63,82,104,0.12)] transition-[transform,box-shadow,background-color] duration-150 hover:-translate-y-1 hover:bg-white/80 hover:shadow-[0_24px_60px_rgba(63,82,104,0.16)] active:translate-y-px active:shadow-[0_10px_28px_rgba(63,82,104,0.12)]"
     >
       <div className="flex w-full items-center justify-between gap-4">
         <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl bg-[#b8cff0] text-[#1f2430] transition group-hover:bg-[#a8c2e8]">
