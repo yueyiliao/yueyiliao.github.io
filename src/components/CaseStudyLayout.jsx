@@ -1,7 +1,7 @@
 export default function CaseStudyLayout({ topId, navItems, onNavigate, children, className = '', backToWork = false }) {
   return (
     <article id={topId} className={`bg-[#f7f0e4] text-[#232018]${className ? ` ${className}` : ''}`}>
-      <nav aria-label="Case study sections" className="sticky top-[76px] z-20 border-y border-[#d8ccb8] bg-[#f7f0e4]/92 backdrop-blur-md">
+      <nav aria-label="Case study sections" className="sticky top-[var(--site-header-height)] z-20 border-y border-[#d8ccb8] bg-[#f7f0e4]/92 backdrop-blur-md">
         <div className="mx-auto flex w-[min(100%-32px,1120px)] gap-2 overflow-x-auto py-3 md:flex-wrap md:justify-center">
           {navItems.map((item) => (
             <a

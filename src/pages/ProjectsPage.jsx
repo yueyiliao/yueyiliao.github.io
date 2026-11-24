@@ -1,30 +1,25 @@
-import { useEffect, useState } from 'react'
 import ProjectCollection from '../components/ProjectCollection.jsx'
+import ContactPage from './ContactPage.jsx'
 
-export default function ProjectsPage({ onNavigate }) {
-  const [isTitleCompact, setIsTitleCompact] = useState(false)
-
-  useEffect(() => {
-    const updateTitleState = () => {
-      setIsTitleCompact(window.scrollY > 24)
-    }
-
-    updateTitleState()
-    window.addEventListener('scroll', updateTitleState, { passive: true })
-    return () => window.removeEventListener('scroll', updateTitleState)
-  }, [])
-
+export default function ProjectsPage({ snapshotId, onNavigate }) {
   return (
     <>
-      <section className={`projects-title ${isTitleCompact ? 'is-compact' : ''}`}>
+      <section className="projects-title">
         <div className="container">
           <h1>Work</h1>
         </div>
       </section>
 
       <div className="content-section">
-        <ProjectCollection onNavigate={onNavigate} variant="work" />
+        <ProjectCollection
+          key={snapshotId || 'work'}
+          initialProjectId={snapshotId}
+          onNavigate={onNavigate}
+          featuredTitle="Selected Work"
+          variant="work"
+        />
       </div>
+      <ContactPage />
     </>
   )
 }

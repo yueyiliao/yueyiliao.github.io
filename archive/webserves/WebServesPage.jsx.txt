@@ -116,7 +116,7 @@ const competencies = [
 
 export default function WebServesPage({ onNavigate }) {
   return (
-    <CaseStudyLayout topId="webserves-top" navItems={navItems} onNavigate={onNavigate} className="pm-case" backToWork>
+    <CaseStudyLayout topId="webserves-top" navItems={navItems} onNavigate={onNavigate} className="pm-case webserves-case" backToWork>
       <header className="pm-hero">
         <div className="container">
           <p className="eyebrow">PROFESSIONAL · WEBSERVES · ONGOING</p>

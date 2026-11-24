@@ -2,8 +2,8 @@ import { useState } from 'react'
 import ProjectCard from './ProjectCard.jsx'
 import { projects } from '../data/projects.js'
 
-export default function ProjectCollection({ onNavigate, featuredTitle = 'Featured Work', variant = 'home' }) {
-  const [openProjectId, setOpenProjectId] = useState(null)
+export default function ProjectCollection({ onNavigate, featuredTitle = 'Featured Work', variant = 'home', initialProjectId = null }) {
+  const [openProjectId, setOpenProjectId] = useState(initialProjectId)
   const isWork = variant === 'work'
   const featured = projects.filter((project) => project.featured)
   const additional = projects.filter((project) => !project.featured)

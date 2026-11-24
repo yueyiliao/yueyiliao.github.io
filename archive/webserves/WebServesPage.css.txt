@@ -494,3 +494,89 @@
     transform: rotate(90deg);
   }
 }
+
+.webserves-case > nav {
+  top: var(--site-header-height);
+}
+
+.pm-case.webserves-case > :is(.pm-hero, section) {
+  padding-block: clamp(22px, 4vw, 38px);
+}
+
+.webserves-case > :is(.pm-hero, section) > div {
+  max-width: 880px;
+}
+
+.webserves-case .pm-hero h1 {
+  margin-top: 7px;
+  font-weight: 700;
+}
+
+.webserves-case :is(.pm-intro, .pm-prose p + p) {
+  margin-top: 10px;
+}
+
+.webserves-case .pm-metadata {
+  gap: 12px 20px;
+  margin-top: 18px;
+  padding-top: 13px;
+}
+
+.webserves-case > section > div > h2 {
+  margin-bottom: 7px;
+  font-size: clamp(1.28rem, 3vw, 1.65rem);
+  font-weight: 700;
+}
+
+.webserves-case > section > div > h2 + div {
+  margin-top: 12px;
+}
+
+.webserves-case :is(.pm-grid, .pm-list-columns, .pm-transformation, .pm-workflow) {
+  grid-template-columns: minmax(0, 1fr);
+  gap: 10px;
+}
+
+.webserves-case :is(.pm-note, .pm-list, .pm-examples, .pm-workflow-title, .pm-adoption, .pm-adoption-sequence, .pm-competencies) {
+  margin-top: 16px;
+}
+
+.webserves-case .pm-tracker {
+  margin-block: 16px;
+}
+
+.webserves-case :is(.pm-panel, .pm-note, .pm-tracker figcaption, .pm-tracker > .pm-grid, .pm-example h3, .pm-transformation > div) {
+  padding: 12px 16px;
+}
+
+.webserves-case .pm-transformation {
+  gap: 0;
+}
+
+.webserves-case .pm-transformation > div + div {
+  border-left: 0;
+  border-top: 1px solid var(--border);
+}
+
+.webserves-case .pm-transformation > div + div::before {
+  content: '↓';
+  top: -12px;
+  left: 24px;
+}
+
+.webserves-case .pm-transformation .pm-refined {
+  border-radius: 0 0 8px 8px;
+}
+
+.webserves-case .pm-adoption-sequence {
+  flex-direction: column;
+  gap: 6px;
+}
+
+.webserves-case .pm-workflow li {
+  padding: 6px 12px;
+}
+
+.webserves-case .pm-arrow {
+  transform: rotate(90deg);
+}

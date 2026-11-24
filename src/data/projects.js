@@ -1,48 +1,52 @@
 import catalogImg from '../assets/catalog.png'
-import webservesCoordinationImg from '../assets/webserves-coordination.png'
-import nyuTapEcosystemImg from '../assets/nyu-tap-ecosystem.png'
-import googleHackathonStrategyImg from '../assets/google-hackathon-strategy.png'
-import marketplaceRolloutImg from '../assets/marketplace-rollout.png'
+
+export const webServesSnapshotPath = '/projects#project-webserves'
+export const webServesTitle = 'WebServes Website Update'
 
 export const projects = [
   {
     id: 'webserves',
     slug: 'webserves',
-    title: 'WebServes Website Update & Implementation Coordination',
+    title: webServesTitle,
     context: 'WebServes',
     contextLabels: ['PROFESSIONAL', 'WEBSERVES', 'ONGOING'],
     tags: ['Async Coordination', 'Requirements', 'Implementation Planning'],
     summary:
       'Creating shared structure for an asynchronous volunteer team to turn stakeholder feedback into executable work.',
     featured: true,
-    caseStudyStatus: 'available',
+    caseStudyStatus: 'snapshot-only',
     image: null,
     imageAlt: null,
-    path: '/projects/webserves',
+    path: null,
     snapshot: {
-      title: 'WebServes Website Update',
+      title: webServesTitle,
       type: 'PROFESSIONAL',
-      frontCue: '↻ Flip for snapshot',
-      positioning: 'Communication & Coordination',
-      hook: 'A cross-functional volunteer team. Different schedules. I helped turn weekly alignment into progress between meetings.',
-      summary: 'I created shared structure around ownership, follow-up, and project updates so distributed volunteers could work more effectively without relying on constant synchronous meetings.',
-      evidence: [
-        'Turned ambiguous stakeholder feedback into actionable work.',
-        'Clarified ownership, dependencies, and next steps.',
-        'Created an async walkthrough when tracker adoption became a communication and schedule risk.',
-      ],
-      takeaway: 'When the coordination process itself is not being used consistently, the process can become part of the project risk.',
-      visual: {
-        src: webservesCoordinationImg,
-        kind: 'image',
-        alt: 'Illustration of a cross-functional volunteer team meeting by video while coordinating tasks, owners, and progress in a shared tracker.',
+      positioning: 'Business Value Alignment & Communication Process Improvement',
+      hook: 'Aligned website improvements with organizational objectives and improved team communication processes to support project execution.',
+      disclosure: {
+        challenge: "The existing website does not clearly communicate WebServes' mission, service offerings, and value to potential clients, making it difficult for visitors to understand how the organization can support their needs.",
+        contributions: [
+          {
+            icon: 'target',
+            title: 'Business Value Alignment',
+            description: 'Translated stakeholder feedback into prioritized improvements and measurable acceptance criteria, keeping deliverables focused on organizational goals and user needs.',
+          },
+          {
+            icon: 'messages',
+            title: 'Communication Process Improvement',
+            description: 'Identified barriers to project tracking adoption, gathered team feedback, and created a walkthrough to improve task visibility, ownership, and progress reporting.',
+          },
+        ],
+        outcomeTitle: 'Expected Outcome',
+        outcome: "Improve first-time visitors' understanding of WebServes' services and value, ultimately increasing the conversion rate from website visitors to client inquiries.",
+        disclaimer: 'Ongoing professional project · Outcome pending validation.',
       },
     },
   },
   {
     id: 'mobile-identity',
     slug: 'mobile-identity',
-    title: 'NYU Mobile Identity Rollout',
+    title: 'NYU Tap and Go (Mobile Credential) Rollout',
     context: 'New York University',
     contextLabels: ['ACADEMIC', 'NYU SPS', 'IMPLEMENTATION PLANNING'],
     tags: ['IT Implementation Planning', 'Risk', 'Dependencies'],
@@ -54,36 +58,42 @@ export const projects = [
     imageAlt: null,
     path: '/projects/mobile-identity',
     snapshot: {
-      title: 'NYU Tap',
-      subtitle: 'Mobile Identity Rollout',
-      type: 'ACADEMIC · NYU SPS',
-      positioning: 'IT Implementation Planning',
-      conceptLabel: 'Portfolio concept · not a production NYU service',
-      hook: 'What looks like a simple tap for the user depends on an entire ecosystem behind it.',
-      summary: 'I helped turn a broad mobile-credential idea into a controlled pilot by defining its boundaries, dependencies, and implementation risks.',
-      evidence: [
-        'Defined pilot scope and boundaries.',
-        'Mapped technical and cross-functional dependencies.',
-        'Developed risk / mitigation planning for implementation readiness.',
-      ],
-      context: '3 pilot locations · Proposed Summer 2027',
-      label: 'Academic planning project',
-      visual: {
-        src: nyuTapEcosystemImg,
-        kind: 'image',
-        alt: 'Illustration of an NYU mobile identity concept connected to identity, hardware, campus services, security, platforms, and operational readiness.',
-      },
+      title: 'NYU Tap & Go',
+      subtitle: 'Mobile Credential Rollout',
+      type: 'ACADEMIC PROJECT · NYU SPS',
+      positioning: 'Change Management & Implementation Planning',
+      hook: 'Led risk identification and mitigation planning for a complex IT implementation project involving organizational change, interdepartmental coordination, and technical dependencies.',
+    },
+  },
+  {
+    id: 'second-hand-marketplace',
+    slug: 'second-hand-marketplace',
+    title: 'Second-Hand Marketplace Rollout',
+    context: 'MVP rollout planning',
+    contextLabels: ['ACADEMIC PROJECT', 'NYU SPS'],
+    tags: ['Requirements Alignment', 'Scope Definition'],
+    summary: 'Took ownership of reconciling inconsistent team inputs, establishing a unified project scope and an executable MVP delivery baseline.',
+    featured: true,
+    caseStudyStatus: 'available',
+    image: null,
+    imageAlt: null,
+    path: '/projects/second-hand-marketplace',
+    snapshot: {
+      title: 'Second-Hand Marketplace Rollout',
+      type: 'ACADEMIC PROJECT · NYU SPS',
+      positioning: 'Requirements Alignment & Scope Definition',
     },
   },
   {
     id: 'google-hackathon',
     slug: 'google-hackathon',
     title: 'Google × NYU SPS Hackathon',
+    topic: "Accelerating Creator Marketing Campaigns with Google's Multimodal AI",
     context: 'Google × NYU SPS',
     contextLabels: ['HACKATHON', 'GOOGLE × NYU SPS', 'PROCESS & GTM'],
     tags: ['Process Design', 'AI Strategy', 'Validation'],
     summary:
-      'Redesigning the creator-marketing review process through SME research, requirements analysis, future-state workflow design, and measurable pilot-success criteria.',
+      'Proactively consulted marketing SMEs to identify gaps in our understanding and obtain the information needed to support the team’s strategy development.',
     featured: true,
     caseStudyStatus: 'in-progress',
     image: null,
@@ -92,53 +102,28 @@ export const projects = [
     snapshot: {
       title: 'Google × NYU SPS Hackathon',
       type: 'HACKATHON',
-      positioning: 'GTM Strategy Design',
-      hook: 'The challenge wasn’t simply using AI—it was identifying where AI could meaningfully fit into the workflow and create measurable business value.',
-      summary: 'I helped turn a broad AI-for-creator-marketing challenge into a practitioner-informed GTM strategy built around a real operational bottleneck.',
-      evidence: [
-        'Led a marketing SME interview and synthesized findings into the team’s problem framing.',
-        'Helped narrow the operational problem.',
-        'Pushed success criteria beyond speed to quality, scale, and cost.',
-      ],
-      takeaway: 'The goal wasn’t just faster execution—it was scalable output, fewer approval cycles, and stronger business value.',
-      label: 'Strategy / proposal — not a deployed AI system',
-      visual: {
-        src: googleHackathonStrategyImg,
-        kind: 'image',
-        alt: 'Illustration of the Google × NYU SPS Hackathon strategy process, moving from discovery through process design to go-to-market planning.',
-      },
-    },
-  },
-  {
-    id: 'second-hand-marketplace',
-    slug: 'second-hand-marketplace',
-    title: 'Second-Hand Marketplace Rollout',
-    context: 'MVP rollout planning',
-    contextLabels: ['ACADEMIC', 'NYU SPS', 'MVP PLANNING'],
-    tags: ['MVP Planning', 'Scope', 'Requirements', 'WBS'],
-    summary:
-      'Planning a 12-week student marketplace MVP by defining scope and requirements, decomposing 9 deliverables into 27 work packages, and planning around NYU integration dependencies.',
-    featured: false,
-    caseStudyStatus: 'in-progress',
-    image: null,
-    imageAlt: null,
-    path: null,
-    snapshot: {
-      title: 'Second-Hand Marketplace Rollout',
-      type: 'ACADEMIC · NYU SPS',
-      positioning: 'MVP Planning',
-      hook: 'I took ownership of turning partially inconsistent team inputs into one executable MVP baseline.',
-      evidenceHeading: 'What I owned',
-      evidence: [
-        'Defined the project scope and high-level requirements.',
-        { prefix: 'Structured ', emphasis: '9 deliverables into 27 work packages', suffix: '.' },
-        { prefix: 'Sequenced the work across a planned ', emphasis: '12-week MVP timeline', suffix: '.' },
-      ],
-      takeaway: 'Alignment comes before decomposition.',
-      visual: {
-        src: marketplaceRolloutImg,
-        kind: 'image',
-        alt: 'Illustration of an NYU second-hand student marketplace concept alongside a phased project rollout plan.',
+      positioning: 'SME Engagement & Team Communication',
+      disclosure: {
+        challenge: 'Our team needed to develop an AI-enabled creator marketing strategy within a limited timeframe, but lacked sufficient domain knowledge to confidently define the operational problem.',
+        contributions: [
+          {
+            icon: 'messages',
+            title: 'Engaged Marketing SMEs',
+            description: "Led a marketing SME interview to clarify operational challenges and address the team's knowledge gaps.",
+          },
+          {
+            icon: 'target',
+            title: 'Supported Problem Framing',
+            description: 'Synthesized practitioner insights into actionable input to help the team narrow the problem and focus its strategy.',
+          },
+          {
+            icon: 'chart',
+            title: 'Refined Success Criteria',
+            description: 'Encouraged the team to evaluate the proposed solution beyond execution speed, considering quality, scalability, and cost.',
+          },
+        ],
+        outcome: 'Helped the team develop a more focused, practitioner-informed go-to-market strategy grounded in operational needs and business value.',
+        disclaimer: 'Hackathon strategy proposal · Not a deployed AI system',
       },
     },
   },
@@ -160,7 +145,7 @@ export const projects = [
       title: 'Cat Feeding Calculator MVP',
       type: 'INDEPENDENT PROJECT',
       positioning: 'End-to-End Product Delivery',
-      hook: 'Born from the kind of question pet parents obsess over: am I feeding my cat the right amount?',
+      hook: 'Independently defined product requirements, prioritized MVP features, and managed the development and delivery of a functional cat feeding calculator.',
       summary: 'I turned that question into an independently delivered MVP that converts cat-profile inputs into feeding recommendations while accounting for usability and health-risk considerations.',
       evidence: [
         'Defined requirements, assumptions, user stories, and acceptance criteria.',
@@ -168,11 +153,6 @@ export const projects = [
         'Used feedback to improve usability and clarity.',
       ],
       takeaway: 'My first experience owning the full delivery cycle end to end.',
-      visual: {
-        src: catalogImg,
-        kind: 'image',
-        alt: 'Pencil-style illustration of a standing tabby cat, used for the Cat Feeding Calculator MVP.',
-      },
     },
   },
 ]

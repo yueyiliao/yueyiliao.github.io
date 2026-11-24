@@ -2,7 +2,7 @@ import ProjectSnapshot from './ProjectSnapshot.jsx'
 
 export default function ProjectCard({ project, onNavigate, compact = false, variant = 'home', expanded, onToggle, number }) {
   if (variant === 'work') {
-    return <ProjectSnapshot project={project} compact={compact} expanded={expanded} onToggle={onToggle} number={number} />
+    return <ProjectSnapshot project={project} expanded={expanded} onToggle={onToggle} number={number} onNavigate={onNavigate} />
   }
 
   return (
